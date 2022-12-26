@@ -1,0 +1,68 @@
+/*===========================
+     06.Price box css 
+===========================*/
+.pricing-table {
+    background-color: #F4F9FF;
+}
+
+.price-box {
+    background-color: #FFFFFF;
+    border: 1px solid #F1F4F5;
+    border-radius: 15px;
+
+    .price-box-head {
+        background-color: #1C55ED;
+        border-radius: 15px;
+        padding: 50px;
+        text-align: center;
+
+        h5 {
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 26px;
+            color: #FFFFFF;
+            border: 2px dashed #fff;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 30px;
+            min-width: 160px;
+            margin-bottom: 20px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 48px;
+            color: #FFFFFF;
+            display: block;
+        }
+
+    }
+
+    .price-box-cnt {
+        padding: 50px;
+
+        ul {
+            list-style: none;
+
+            li {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                display: flex;
+                align-items: center;
+                color: #000000;
+                padding-bottom: 20px;
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+
+                i {
+                    margin-right: 10px;
+                    color: $color1;
+                }
+            }
+        }
+
+    }
+}

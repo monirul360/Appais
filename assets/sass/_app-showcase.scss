@@ -1,0 +1,34 @@
+/*===========================
+     08.App showcase css 
+===========================*/
+.app-showcase {
+    background-color: #1C58F3;
+}
+
+.swiper.app-showcase-slider {
+    padding-bottom: 50px;
+
+    .swiper-pagination {
+        bottom: 0px !important;
+
+        .swiper-pagination-bullet {
+            height: 15px;
+            width: 15px;
+            border: 2px solid #fff;
+            background: transparent;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #fff;
+        }
+    }
+}
+
+.showcase-slide {
+
+    img {
+        border-radius: 20px;
+    }
+
+}

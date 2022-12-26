@@ -1,0 +1,111 @@
+/*===========================
+     02.Header css 
+===========================*/
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.logo {
+
+    a {
+        img {
+            max-height: 50px;
+        }
+
+    }
+}
+
+nav {
+    text-align: right;
+
+    .main-menu {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            padding: 30px 15px;
+
+            &:last-child {
+                padding-right: 0;
+            }
+
+            a {
+                font-family: $font-1;
+                font-weight: 600;
+                font-size: 16px;
+                color: #FFFFFF;
+                @include transition(.5s);
+
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+
+    }
+}
+
+//Mobile Menu CSS
+@media #{$rs} {
+
+    header {
+        padding: 20px 0;
+    }
+
+    .hero-wrapper {
+        padding-top: 0 !important;
+    }
+
+    .mobile-logo {
+        display: block !important;
+        margin: 20px 10px 50px;
+        border-bottom: 1px solid $color1;
+        padding-bottom: 20px;
+
+        img {
+            max-width: 160px;
+        }
+    }
+
+    .mobile-menu {
+        display: block !important;
+        text-align: right;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .main-nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        min-width: 250px;
+        text-align: left;
+        transform: translateX(-300px);
+        background-color: #1c1c1c;
+        @include transition(.5s);
+
+        &.slide {
+            transform: translateX(0px);
+        }
+
+        .main-menu {
+
+            li {
+                display: block !important;
+                padding: 10px 0 !important;
+
+                a {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,45 @@
+/*===========================
+     04.About css 
+===========================*/
+.about-us {
+    background-color: #F4F9FF;
+}
+
+.about-left {
+    text-align: right;
+    margin-right: 50px;
+
+    @media #{$xs} {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
+.about-right {
+    h2 {
+        font-weight: 600;
+        font-size: 36px;
+        color: #171717;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 16px;
+        color: rgba(104, 104, 105, 0.8);
+    }
+
+    a {
+        display: inline-block;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        min-width: 150px;
+        text-align: center;
+        padding: 15px 30px;
+        color: #1E5AF9;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+
+}

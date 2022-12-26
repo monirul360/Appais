@@ -1,0 +1,75 @@
+/*===========================
+     04.Work css 
+===========================*/
+.works-steps {}
+
+.single-work {
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1.5px solid #F1F4F5;
+    @include transition(.5s);
+
+    .icon {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 30px;
+
+        i {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            color: $color1;
+            @include transition(.5s);
+        }
+
+        svg {
+            display: block;
+
+            path {
+                fill: #F2F7FF;
+                @include transition(.5s);
+            }
+        }
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #171717;
+        margin-bottom: 20px;
+        @include transition(.5s);
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        color: rgba(104, 104, 105, 0.8);
+    }
+
+    &:hover {
+        border: 1.5px solid transparent;
+        box-shadow: 5px 10px 25px 5px rgba(0, 0, 0, 0.07);
+
+        .icon {
+            i {
+                color: #fff;
+            }
+
+            svg {
+                path {
+                    fill: $color1;
+                }
+            }
+        }
+
+        h4 {
+            color: $color1;
+        }
+    }
+}

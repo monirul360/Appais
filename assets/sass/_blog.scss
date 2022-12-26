@@ -1,0 +1,65 @@
+/*===========================
+     09.Blog css 
+===========================*/
+.blog-area {}
+
+.single-blog {
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blog-thumb {
+    width: 50%;
+}
+
+.blog-cnt {
+    width: 50%;
+    padding: 30px;
+}
+
+.blog-thumb a img {
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+.blog-cnt h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1A1A1A;
+    margin-bottom: 30px;
+}
+
+.author {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.author-thumb {
+    margin-right: 20px;
+}
+
+.author-thumb a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.author-cnt a h6 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1A1A1A;
+    margin-bottom: 5px;
+}
+
+.date-time {}
+
+.date-time a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #959595;
+}

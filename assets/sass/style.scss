@@ -1,0 +1,39 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Basic
+    Author: Example
+    Author URI: https://example.com/
+    Support: https://example.com/support/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01.COMMON
+    02.Header css
+    03.Hero area css
+    04.Work css
+    05.About css
+    06.Price box css
+    07.Testimonial css 
+    08.App showcase css 
+    09.Blog css 
+    10.Footer css 
+    11.
+
+-----------------------------------------------------------------------------------*/
+
+@import 'variables';
+@import 'mixin';
+@import 'common';
+@import 'header';
+@import 'hero-area';
+@import 'work';
+@import 'about';
+@import 'price_box';
+@import 'testimonial';
+@import 'app-showcase';
+@import 'blog';
+@import 'footer';
