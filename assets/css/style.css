@@ -633,7 +633,15 @@ footer {
 .footer-bottom {
   padding: 50px 0; }
   .footer-bottom .footer-logo a img {
-    max-width: 160px; }
+    width: 175px;
+    height:61px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 20px auto;
+}
+
   .footer-bottom .copy-txt {
     text-align: center; }
     .footer-bottom .copy-txt span {
@@ -643,7 +651,8 @@ footer {
       text-align: center;
       display: block; }
   .footer-bottom .footer-social {
-    text-align: right;
+    text-align: center;
+margin-top: 20px;
     list-style: none; }
     .footer-bottom .footer-social li {
       display: inline-block;
